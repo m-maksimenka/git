@@ -1,0 +1,27 @@
+1. Configuration and start:
+    - With correct parameters:
+        -- Values for SOURCE_DIR, DESTINATION_DIR, LOG_FILE_NAME are passed to the application. These values (all of them) should contain spaces and Cyrillic symbols. Repeat this test for Windows and *nix file systems (pay attention to directory separators (“/” и “\”) and logical drives).
+        -- LOG_FILE_NAME value is omitted.
+    - Without any parameter.
+    - With some mandatory parameters omitted.
+    - With incorrect parameters:
+        -- Wrong path for SOURCE_DIR.
+        -- Wrong path for DESTINATION_DIR.
+        -- Wrong file name for LOG_FILE_NAME.
+        -- DESTINATION_DIR is inside SOURCE_DIR.
+        -- DESTINATION_DIR and SOURCE_DIR are the same.
+2. File processing:
+    - Miscellaneous formats, encodings and sizes.
+    - Inaccessible input files:
+        -- No access rights.
+        -- File is opened and locked.
+        -- File with "read-only" attribute.
+3. Stop:
+    - Close the console window (do not use Ctrl-C).
+4. Log:
+    - Creation (if no log was created yet).
+    - Appending (for the existing log) with application restart.
+5. Performance:
+    - Execute some elementary rough test.
+
+©Svyatoslav Kulikov
