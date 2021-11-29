@@ -1,4 +1,4 @@
-# Homework for GitHub
+# Homework for Git
 
 ## EN
 1. In the local repository, create branches for:
